@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.http import HttpResponse, HttpResponseRedirect
+from django.views.generic import TemplateView
 
-# Create your views here.
+
+def splash(requests):
+    return render(requests, 'pages/index.html', {} )
