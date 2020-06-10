@@ -5,3 +5,6 @@ from django.views.generic import TemplateView
 
 def splash(requests):
     return render(requests, 'pages/index.html', {} )
+
+def giphy(requests):
+    return render(requests, 'pages/giphy.html', {} )
