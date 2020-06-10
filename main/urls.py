@@ -7,4 +7,5 @@ from . import views
 urlpatterns = [
   path('', views.splash, name='splash'),
   path('gifsearch/', views.giphy, name="giphy"),
+  path('profile/', views.profile, name="profile"),
 ]

@@ -8,3 +8,6 @@ def splash(requests):
 
 def giphy(requests):
     return render(requests, 'pages/giphy.html', {} )
+
+def profile(requests):
+    return render(requests, 'pages/profile.html', {} )
